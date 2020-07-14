@@ -2,25 +2,44 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Yajun Kou testing HTML">
+    <meta name="description" content="Test for HTML">
     <title>My test page</title>
     <link href="styles/style.css" rel="stylesheet">
     <h1>H1 header</h1>
-    <h2> 中文 <h2>
     <script src="scripts/main.js" defer></script>
-  </head>
-  <body>
-    <img src="images/fuji-1.jpg" height="273" width="364" alt="My test image">
-    <p>This is a image of moutain Fuji taken in January 2019.</p>
-    <p>Moutain Fuji is one of the world famous cultural icons of Japan. Others include</p>
-    <ol> 
-      <li>Tokyo Tower</li>
-      <li>Tokyo National Museum</li>
-      <li>etc.</li>
-    </ol>
-    <a href="http://www.fujisan-climb.jp/en/index.html">
-       <img src="images/fuji-logo.jpg" height="273" width="364" alt="Offical website for Mountain Fuji">
-    </a>
-  </body>
+   </head>
+   <body>
+      <img src="images/fuji-1.jpg" height="273" width="364" alt="My test image">
+      <p>This is a image of moutain Fuji taken in January 2019.</p>
+
+      <video id="video-1" height="273" width="364">
+         <source src="videos/fuji-1.mp4"
+                        type="video/mp4">
+         <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+      </video>
+
+      <video controls  height="273" width="364">
+         <source src="videos/fuji-2.mp4"
+                        type="video/mp4">
+         <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+      </video>
+
+      <p>Moutain Fuji is one of the world famous cultural icons of Japan. Others include</p>
+      <ol> 
+         <li>Tokyo Tower</li>
+         <li>Tokyo National Museum</li>
+         <li>etc.</li>
+      </ol>
+
+      <a href="http://www.fujisan-climb.jp/en/index.html">
+         <figure>
+            <img src="images/fuji-logo.jpg"
+                      alt="Offical website for Mountain Fuji"
+                      height="273"
+                      width="364">
+         </figure>
+      </a>
+
+   </body>
 </html> 
 
